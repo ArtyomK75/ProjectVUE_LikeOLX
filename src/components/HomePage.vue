@@ -4,7 +4,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" md="3">
-        <v-card class="pa-3" v-if="categories.length">
+        <v-card class="pa-3" v-if="categories.length" min-width="200px">
           <v-card-title>Categories</v-card-title>
           <v-divider></v-divider>
           <v-list>
@@ -32,6 +32,7 @@
             hide-details
             single-line
             @click:append-inner="fetchAdverts"
+            min-width="600px"
           ></v-text-field>
         </v-row>
 

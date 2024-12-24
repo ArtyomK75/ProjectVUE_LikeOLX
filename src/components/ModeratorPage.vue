@@ -90,6 +90,7 @@
                                 type="number"
                             ></v-text-field>
                           </v-col>
+
                           <v-col
                               cols="12"
                               md="4"
@@ -99,6 +100,8 @@
                                 v-model="editedItem.is_active"
                                 color="primary"
                                 label="Is active"
+                                :true-value="1"
+                                :false-value="0"
                                 value="1"
                                 hide-details
                             ></v-checkbox>

@@ -2,7 +2,7 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" md="8">
-        <v-card>
+        <v-card min-width="600px">
           <v-card-title>Создание нового объявления</v-card-title>
           <v-card-text>
             <v-form v-model="isFormValid">
